@@ -11,3 +11,7 @@ First, plug in your mini-B cable from your Casio into your computer. Your Casio 
 Once you've connected your Casio, go to your PC and download [Snake.g1a](https://github.com/AwesomeZachYT/casio-snake/raw/refs/heads/main/Snake.g1a) on this Github. Now drag the downloaded file into your Casio hard drive, just like you would do on a regular USB.
 
 Finally, eject the Casio hard drive. Once your Casio has updated its memory, you should see an application called `Snake` on your home page.
+
+![Image of Home Screen](https://github.com/AwesomeZachYT/casio-snake/blob/main/READMEIMG.png)
+
+*Image of the Home Screen After the Snake Addin is Imported*
