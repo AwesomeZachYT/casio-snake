@@ -1,0 +1,3 @@
+/home/zacht/dev/casio/games/snake/build-fx/CMakeFiles/snake.dir
+/home/zacht/dev/casio/games/snake/build-fx/CMakeFiles/edit_cache.dir
+/home/zacht/dev/casio/games/snake/build-fx/CMakeFiles/rebuild_cache.dir
