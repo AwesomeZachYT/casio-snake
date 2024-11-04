@@ -15,3 +15,7 @@ Finally, eject the Casio hard drive. Once your Casio has updated its memory, you
 ![Image of Home Screen](https://github.com/AwesomeZachYT/casio-snake/blob/main/READMEIMG.png)
 
 *Image of the Home Screen After the Snake Addin is Imported*
+
+## Controls
+
+To move the snake, use the D-pad or, alternatively, the `2`, `4`, `6`, and `8` keys on the keypad. I made the keypad able to move the snake since the D-pad can sometimes be unreliable.
