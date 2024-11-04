@@ -4,21 +4,6 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "FXCONV"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_FXCONV
-  "/home/zacht/dev/casio/games/snake/assets-fx/example.png" "/home/zacht/dev/casio/games/snake/build-fx/CMakeFiles/snake.dir/assets-fx/example.png.o"
-  )
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_FXCONV
-  "FX9860G"
-  "TARGET_FX9860G"
-  )
-
-# The include file search paths:
-set(CMAKE_FXCONV_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:

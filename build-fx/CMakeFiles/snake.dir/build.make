@@ -83,22 +83,14 @@ CMakeFiles/snake.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/snake.dir/src/main.c.s"
 	/home/zacht/.local/bin/sh-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zacht/dev/casio/games/snake/src/main.c -o CMakeFiles/snake.dir/src/main.c.s
 
-CMakeFiles/snake.dir/assets-fx/example.png.o: CMakeFiles/snake.dir/flags.make
-CMakeFiles/snake.dir/assets-fx/example.png.o: /home/zacht/dev/casio/games/snake/assets-fx/example.png
-CMakeFiles/snake.dir/assets-fx/example.png.o: /home/zacht/dev/casio/games/snake/assets-fx/fxconv-metadata.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zacht/dev/casio/games/snake/build-fx/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building FXCONV object CMakeFiles/snake.dir/assets-fx/example.png.o"
-	/home/zacht/.local/bin/fxconv --toolchain=sh-elf --fx    /home/zacht/dev/casio/games/snake/assets-fx/example.png -o CMakeFiles/snake.dir/assets-fx/example.png.o
-
 # Object files for target snake
 snake_OBJECTS = \
-"CMakeFiles/snake.dir/src/main.c.obj" \
-"CMakeFiles/snake.dir/assets-fx/example.png.o"
+"CMakeFiles/snake.dir/src/main.c.obj"
 
 # External object files for target snake
 snake_EXTERNAL_OBJECTS =
 
 snake: CMakeFiles/snake.dir/src/main.c.obj
-snake: CMakeFiles/snake.dir/assets-fx/example.png.o
 snake: CMakeFiles/snake.dir/build.make
 snake: /home/zacht/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/libgint-fx.a
 snake: /home/zacht/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/libc.a
@@ -107,7 +99,7 @@ snake: /home/zacht/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../
 snake: /home/zacht/dev/casio/games/snake/assets-fx/icon.png
 snake: /home/zacht/.local/share/fxsdk/sysroot/lib/gcc/sh3eb-elf/14.1.0/../../../../sh3eb-elf/lib/fx9860g.ld
 snake: CMakeFiles/snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zacht/dev/casio/games/snake/build-fx/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable snake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zacht/dev/casio/games/snake/build-fx/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable snake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snake.dir/link.txt --verbose=$(VERBOSE)
 	/home/zacht/.local/bin/sh-elf-objcopy -O binary -R .bss -R .gint_bss snake snake.bin
 	fxgxa --g1a -n Snake -i /home/zacht/dev/casio/games/snake/assets-fx/icon.png -o /home/zacht/dev/casio/games/snake/Snake.g1a snake.bin

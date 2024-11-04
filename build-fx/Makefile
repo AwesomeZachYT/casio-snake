@@ -129,14 +129,6 @@ snake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/build
 .PHONY : snake/fast
 
-assets-fx/example.o: assets-fx/example.png.o
-.PHONY : assets-fx/example.o
-
-# target to build an object file
-assets-fx/example.png.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/assets-fx/example.png.o
-.PHONY : assets-fx/example.png.o
-
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
@@ -170,7 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... snake"
-	@echo "... assets-fx/example.o"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -18,14 +18,6 @@ set(SOURCES
 set(ASSETS
   # ...
 )
-set(ASSETS_fx
-  assets-fx/example.png
-  # ...
-)
-set(ASSETS_cg
-  assets-cg/example.png
-  # ...
-)
 
 fxconv_declare_assets(${ASSETS} ${ASSETS_fx} ${ASSETS_cg} WITH_METADATA)
 
